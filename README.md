@@ -1,29 +1,20 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+The Remote Backup Application ensures seamless synchronization between a folder on a client machine and another on a server machine. This application offers real-time, bi-directional syncing capabilities, ensuring your data is consistent across both client and server locations.
 
-### What is this repository for? ###
+### Compiling ###
+#### Prerequisites ####
+- C++ compiler. 
+- Boost Libraries.
+- CMake
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Launching the Client ###
 
-### How do I get set up? ###
+```
+./client_executable_name [DIRECTORY_PATH] [SERVER_IP_ADDRESS] [SERVER_PORT]
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Launching the Server ###
+```
+./server_executable_name [SYNC_FOLDER_PATH] [PORT]
+```

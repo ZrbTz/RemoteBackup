@@ -8,6 +8,16 @@ The Remote Backup Application ensures seamless synchronization between a folder 
 - Boost Libraries.
 - CMake
 
+Launch the following commands from the main folder.
+
+```
+mkdir build && cd build
+cmake ..
+make
+```
+
+You'll find the client and server executables in the build directory.
+
 ### Launching the Client ###
 
 ```
